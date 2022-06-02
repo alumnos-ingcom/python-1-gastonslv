@@ -4,9 +4,8 @@
 ################
 
 """
-Describir aquí que es lo que se esta probando.
-Tengan en cuenta que el archivo tiene que llamarse igual
-que el archivo a probar agregando antes `test_`
+Estos son los test correspondientes al archivo `ejercicio.py` que esta en
+`src`
 """
 
 def test_nombrefuncion():
