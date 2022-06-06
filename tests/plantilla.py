@@ -1,12 +1,11 @@
 ################
-# Nombre - @usuario_github
+# Gaston Silvestre - @gastonslv
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
 """
-Describir aquí que es lo que se esta probando.
-Tengan en cuenta que el archivo tiene que llamarse igual
-que el archivo a probar agregando antes `test_`
+Estos son los test correspondientes al archivo `ejercicio.py` que esta en
+`src`
 """
 
 def test_nombrefuncion():
@@ -14,4 +13,3 @@ def test_nombrefuncion():
        Una breve descripción del caso de prueba aplicado a la función
     """
     pass
-
