@@ -20,7 +20,9 @@ def sexadecimal_a_decimal(horas, minutos, segundos):
 
 def decimal_a_sexadecimal(numero):
     """
-    Esta funcion convierte segundos a (horas,minutos,segundos).
+    Esta funcion procesa cada segundo que le demos, y los convierte a (horas,minutos,segundos).
+    Tengan en cuenta que a partir de la septima cifra, el programa tarda mucho mas en
+    procesar los datos, y cinvertirlos en informacion.
     """
     ## Entrada
     horas = 0

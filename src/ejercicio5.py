@@ -16,6 +16,7 @@ def division_lenta(dividendo, divisor):
     Esta funcion mediante restas sucesivas, obtiene el valor
     del cociente y resto de dos números enteros
     """
+
     cociente = 0
     resto = 0
 
@@ -55,11 +56,12 @@ def division_lenta(dividendo, divisor):
     ## SALIDA
     return(resto,cociente)
 
+
 def principal():
     """
     Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
-    """
+    """    
     valor = int(input("ingrese dividendo: "))
     valor2 = int(input("ingrese divisor: "))
     resultado = division_lenta(valor,valor2)

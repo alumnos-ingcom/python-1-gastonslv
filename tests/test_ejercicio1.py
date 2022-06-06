@@ -1,13 +1,13 @@
 ################
-# Nombre - @usuario_github
+# Gaston Silvestre - @usuario_github
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
-
-from src.ejercicio1 import convertir_a_centigrados, convertir_a_fahrenheit
 
 """
 Estos son los tests correspondientes al ejercicio1.py
 """
+
+from src.ejercicio1 import convertir_a_centigrados, convertir_a_fahrenheit
 
 def test_convertir_a_fahrenheit_positivo():
     """
@@ -17,7 +17,7 @@ def test_convertir_a_fahrenheit_positivo():
     resultado = convertir_a_fahrenheit(numero)
     assert isinstance(resultado, float), "El resultado es un numero flotante"
     assert resultado > 0, "El resultado es positivo"
-    assert resultado < 0, "No obtenemos el resultado esperado"
+    assert resultado == 86.0, "El resultado esperado"
 
 def test_convertir_a_fahrenheit_negativo():
     """
@@ -27,7 +27,7 @@ def test_convertir_a_fahrenheit_negativo():
     resultado = convertir_a_fahrenheit(numero)
     assert isinstance(resultado, float), "El resultado es un numero flotante"
     assert resultado < 0, "El resultado es positivo"
-    assert resultado > 0, "No obtenemos el resultado esperado"
+    assert resultado == -22.0, "El resultado esperado"
 
 def test_convertir_a_centigrados_positivo():
     """
@@ -37,7 +37,7 @@ def test_convertir_a_centigrados_positivo():
     resultado = convertir_a_centigrados(numero)
     assert isinstance(resultado, float), "El resultado es un numero flotante"
     assert resultado > 0, "El resultado es positivo"
-    assert resultado < 0, "No obtenemos el resultado esperado"
+    assert resultado == 10.0, "El resultado esperado"
 
 def test_convertir_a_centigrados_negativo():
     """
@@ -47,4 +47,3 @@ def test_convertir_a_centigrados_negativo():
     resultado = convertir_a_centigrados(numero)
     assert isinstance(resultado, float), "El resultado es un numero flotante"
     assert resultado < 0, "El resultado es positivo"
-    assert resultado > 0, "No obtenemos el resultado esperado"

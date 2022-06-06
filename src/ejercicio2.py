@@ -11,13 +11,18 @@ def signo(numero):
     """
     Esta funcion especifica el tipo de signo que se ingresa
     """
+    ## Entrada
     valor = numero + numero
+
+    ## Proceso
     if valor > numero:
         signoh = 1
     elif valor == numero:
         signoh = 0
     else:
         signoh = -1
+
+    ## Salida
     return signoh
 
 def principal():

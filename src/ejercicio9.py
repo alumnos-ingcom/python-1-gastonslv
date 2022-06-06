@@ -21,8 +21,7 @@ def factores_primos(numero):
                 primos.append(i)
                 numero = numero / i
     else:
-        return print("El numero utilizado es negativo/neutro (0), ingrese uno positivo")
-
+        raise ValueError("El numero utilizado es negativo/neutro (0), ingrese uno positivo")
     ## Salida
     return primos
 
